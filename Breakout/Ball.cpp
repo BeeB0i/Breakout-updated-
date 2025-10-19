@@ -114,3 +114,9 @@ void Ball::setFireBall(float duration)
     _isFireBall = false;
     _timeWithPowerupEffect = 0.f;    
 }
+
+void Ball::setBigBall(float duration)
+{
+    _sprite.setRadius(RADIUS *2);
+    _timeWithPowerupEffect = duration;
+}
