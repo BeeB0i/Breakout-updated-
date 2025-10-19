@@ -33,3 +33,5 @@ fire ball (green)
 
 # Time Details and Changelist
 <Add information to this section about the time you've taken for this task along with a professional changelist.>
+
+20 mins - fixed compiler issue by removing the include of "PowerupFireBall" header file from the PowerupBae header file as it does not need to be dependant on a child
