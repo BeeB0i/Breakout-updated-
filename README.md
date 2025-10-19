@@ -37,3 +37,5 @@ fire ball (green)
 20 mins - fixed compiler issue by removing the include of "PowerupFireBall" header file from the PowerupBae header file as it does not need to be dependant on a child
 
 30 mins - implementation of Big Ball Powerup (issue with the randomised powerup system) 
+
+30 mins - Implementation of mouse input to control paddle
